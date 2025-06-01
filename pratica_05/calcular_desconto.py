@@ -4,7 +4,6 @@ def calcular_preco_final(preco_original, percentual_desconto):
     preco_final = preco_original - valor_desconto
     return preco_final
 
-# Exemplo de uso:
 if __name__ == "__main__":
     preco = float(input("Digite o preço original do produto: "))
     desconto = float(input("Digite o percentual de desconto: "))
